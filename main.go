@@ -1,7 +1,7 @@
 package main
 
 import (
-	"authena/user"
+	"authena/models/user"
 	"github.com/gin-gonic/gin"
 	"log"
 	"os"
@@ -28,3 +28,5 @@ func main() {
 }
 
 //func login
+
+var user = &User
